@@ -1,0 +1,193 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.html {
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 72px;
+    
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 1em 13em 3em;
+ 
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.top {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.header a {
+    text-decoration: none;
+    color: lightgray
+}
+
+.bottom {
+    display: flex;
+    margin: 0;
+    color: white;
+    justify-content: space-between;
+    
+    
+}
+
+button {
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    border: 1px solid royalblue;
+}
+
+.intro { 
+    max-width:40%;
+}
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+.bottom img {
+   
+    max-width:40%;
+    height:auto;
+}
+
+.info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+   
+}
+
+.info h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.grids {
+    overflow: hidden;
+    display: flex;
+   
+    padding: 10px;
+    justify-content: space-around;
+    gap: 30px;
+    text-align: center;
+}
+
+.grids img{
+    width: 200px;
+    height: 200px;
+    min-height: 200px;
+    min-width: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px blue solid;
+    
+}
+
+.quote {
+    font: #1f2937;
+    background-color: lightgrey;
+    font-size: 36px;
+    padding: 120px 250px 120px 250px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: italic;
+}
+
+.signature {
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.sign-up {
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 350px
+}
+
+.box {
+    
+    background-color: #3882f6;
+    width: 70%;
+    height: auto;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+.box p {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.box p .action {
+    font-size: 30px;
+}
+
+.box p .click {
+    font-size: 20px;
+    color: lightgrey;
+}
+.box button {
+    background-color: #3882f6;
+    border-color: white;
+    
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
+    padding: 40px;
+    font-size: 12px;
+}
+
